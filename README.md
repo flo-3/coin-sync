@@ -1,6 +1,38 @@
-# Telegram Mini App + Dynamic connect
+# Coin sync: Crypto Portfolio Manager Bot
 
-Steps to have the Telegram Mini App (TMA) + Bot running
+## Overview
+This project is a Telegram-based bot that simplifies cryptocurrency portfolio management by utilizing a dynamic embedded wallet. It allows users to link multiple wallets from various blockchains into one unified view. With real-time updates, seamless transactions, and an intuitive interface, the bot provides an efficient way to manage crypto portfolios directly within Telegram.
+
+## Key Features
+Link All Wallets in One Place: Connect wallets from multiple blockchain networks to monitor all assets in a single interface.
+
+Real-Time Portfolio Updates: Receive dynamic updates on portfolio balances to stay informed about the current value of your holdings.
+
+Gas Fee Optimization Alerts: Get real-time notifications when gas fees drop, enabling you to time transactions for the lowest costs.
+
+Seamless Micro-Transactions: Conduct fast and secure peer-to-peer crypto payments within Telegram, ideal for tipping and rapid transfers.
+
+Portfolio Performance Monitoring: Gain insights and alerts on portfolio movements, such as significant gains, losses, or price trends.
+
+Security Alerts: Receive notifications about suspicious contract interactions or unknown tokens, ensuring your crypto assets are protected.
+
+## Technology
+The bot integrates a dynamic embedded wallet that adapts to multiple blockchain ecosystems, allowing seamless interactions across diverse crypto assets. Key technologies include:
+
+Real-Time Notifications: Utilizes Telegram’s API to send alerts on gas fees, portfolio changes, and security warnings.
+
+Integrated Transactions: Conduct transfers, swaps, or staking directly from the Telegram interface via the embedded wallet.
+
+## User Experience
+Designed for both new and experienced crypto enthusiasts, the bot offers:
+
+Easy linking and tracking of multiple wallets in one view.
+Daily, weekly, or on-demand portfolio summaries.
+Secure micro-transactions and real-time market insights.
+
+## Installation
+
+Steps to have the Telegram app running
 
 1. Create a Bot on Telegram using Botfather, [link to tutorial](https://core.telegram.org/bots/tutorial#getting-ready)
 2. Clone this repo, run `cp .env.sample .env` and use your own Dynamic environment ID by replacing `NEXT_PUBLIC_DYNAMIC_ENV_ID` in the `.env` file
